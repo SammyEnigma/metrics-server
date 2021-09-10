@@ -56,7 +56,7 @@ distributions. Please ensure that your cluster distribution supports these requi
 Latest Metrics Server release can be installed by running:
 
 ```shell
-kubectl apply -f https://github.com/kubernetes-sigs/metrics-server/releases/download/v3.5.0/components.yaml
+kubectl apply -f https://github.com/kubernetes-sigs/metrics-server/releases/download/v0.5.0/components.yaml
 ```
 
 Or via the [Helm chart](charts/metrics-server/README.md).
@@ -78,10 +78,10 @@ Metrics Server | Metrics API group/version | Supported Kubernetes version
 
 ### High Availability
 
-Latest Metrics Server release can be installed in high availability mode by running:
+v0.6.0 Metrics Server release can be installed in high availability mode by running:
 
 ```shell
-kubectl apply -f https://github.com/kubernetes-sigs/metrics-server/releases/latest/download/high-availability.yaml
+kubectl apply -f https://github.com/kubernetes-sigs/metrics-server/releases/download/v0.6.0/high-availability.yaml
 ```
 
 Note that this configuration **requires** having a cluster with at least 2 nodes on which Metrics Server can be scheduled.
