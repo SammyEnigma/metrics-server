@@ -56,7 +56,7 @@ distributions. Please ensure that your cluster distribution supports these requi
 Latest Metrics Server release can be installed by running:
 
 ```shell
-kubectl apply -f https://github.com/kubernetes-sigs/metrics-server/releases/latest/download/components.yaml
+kubectl apply -f https://github.com/kubernetes-sigs/metrics-server/releases/download/v3.5.0/components.yaml
 ```
 
 Or via the [Helm chart](charts/metrics-server/README.md).
