@@ -15,9 +15,6 @@
 package main
 
 import (
-	"os"
-	"runtime"
-
 	genericapiserver "k8s.io/apiserver/pkg/server"
 	"k8s.io/component-base/logs"
 
